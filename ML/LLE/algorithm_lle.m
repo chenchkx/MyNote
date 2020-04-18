@@ -1,4 +1,4 @@
-% LLE ALGORITHM, AUTHORS' SOURCE CODE IS AVAILABLE AT: https://www.cs.nyu.edu/~roweis/lle/code.html
+% LLE ALGORITHM (using K nearest neighbors) 
 % REWRITEED BY Kai-Xuan Chen, 
 % DATE: 2020.04.18
 %
@@ -42,7 +42,8 @@ function [Y] = algorithm_lle(X,k_nbor,dim_embedding)
     M = M*M';
     % CALCULATION OF EMBEDDING
     options.disp = 0; options.isreal = 1; options.issym = 1; 
-    [Y,~] = eigs(M,dim_embedding+1,0,options);
-    Y = Y(:,2:dim_embedding+1)'*sqrt(num); % bottom evect is [1,1,1,1...] with eval 0
+    [Y,D] = eigs(M,dim_embedding+1,0,options);
+    [~,ind_D] = sort(diag(D));
+    Y = Y(:,ind_D(2:dim_embedding+1))'*sqrt(num); % bottom evect is [1,1,1,1...] with eval 0
  
 end
