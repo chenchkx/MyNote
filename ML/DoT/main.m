@@ -6,7 +6,7 @@ clear;
 clc;
 
 load('sphere.mat');
-k_nn = 20;          % num of k neighbor
+k_nn = 10;          % num of k neighbor
 type = 'local';     % 'local' or 'global'
 label = label + 1;  % Index starts at 1
 num_class = numel(unique(label));
