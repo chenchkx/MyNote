@@ -43,7 +43,7 @@ function [Y] = algorithm_lle(X,k_nbor,dim_embedding)
     % CALCULATION OF EMBEDDING
     options.disp = 0; options.isreal = 1; options.issym = 1; 
     [Y,D] = eigs(M,dim_embedding+1,0,options);
-    [~,ind_D] = sort(diag(D));
+    [~,ind_D] = sort(diag(D),'ascend');
     Y = Y(:,ind_D(2:dim_embedding+1))'*sqrt(num); % bottom evect is [1,1,1,1...] with eval 0
  
 end
