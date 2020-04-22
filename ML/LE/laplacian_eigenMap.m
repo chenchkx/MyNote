@@ -34,15 +34,17 @@ function out_matrix = laplacian_eigenMap(X,k_nbor,d,sigma)
     % Compute Weights(W) using Gaussian Kernel(heat kernel-based weights).
     dis_matrix(dis_matrix ~= 0) = exp(-dis_matrix(dis_matrix ~= 0) / (2 * sigma ^ 2));
     W = dis_matrix;
+    
     % Construct Diagonal Weight Matrix
     D = diag(sum(dis_matrix, 2));
+    
     % Compute Laplacian Matrix
     L = D - W;
     L(isnan(L)) = 0; D(isnan(D)) = 0;
-	L(isinf(L)) = 0; D(isinf(D)) = 0;
+    L(isinf(L)) = 0; D(isinf(D)) = 0;
     
-    % Construct Eigenmaps (solve Ly = labda*Dy)
-	tol = 0; 
+    % Construct Eigenmaps (solve Ly = labda*Dy)   
+    tol = 0; 
     options.disp = 0;
     options.isreal = 1;
     options.issym = 1;
@@ -51,8 +53,8 @@ function out_matrix = laplacian_eigenMap(X,k_nbor,d,sigma)
     % Sort eigenvectors in ascending order
     eig_values = diag(eig_values);
     [~, ind_eig] = sort(eig_values, 'ascend');
-    % D = D(2:no_dims + 1); 
+    
     % CALCULATION OF EMBEDDING
-	out_matrix = eig_vectors(:,ind_eig(2:d + 1))';
+    out_matrix = eig_vectors(:,ind_eig(2:d + 1))';
       
 end
