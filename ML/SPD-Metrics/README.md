@@ -1,4 +1,4 @@
-﻿The code of four metrics on SPD manifold. Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)
+﻿The code of four metrics on SPD manifold. Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
 Also, you can find more applications at:  
 https://github.com/Kai-Xuan/RiemannianCovDs/  
 https://github.com/Kai-Xuan/iCovDs/  
