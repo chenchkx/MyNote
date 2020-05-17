@@ -1,7 +1,11 @@
-﻿The code of four metrics(AIRM, LEM, Stein&Jeffrey divergence) on SPD manifold. Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
+﻿
+The code of four metrics(AIRM, LEM, Stein&Jeffrey divergence) on SPD manifold.  
+Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
 Also, you can find more applications at:  
 https://github.com/Kai-Xuan/RiemannianCovDs/  
 https://github.com/Kai-Xuan/iCovDs/  
+
+
 
 
 If you find this code useful for your research, maybe you can cite the following paper:
