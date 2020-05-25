@@ -12,6 +12,18 @@ If you find this code useful for your research, maybe you can cite the following
 
 BibTex : 
 ```
+@article{chen2020covariance,
+  title={Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification},
+  author={Chen, Kai-Xuan and Ren, Jie-Yi and Wu, Xiao-Jun and Kittler, Josef},
+  journal={Pattern Recognition},
+  pages={107463},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+
+BibTex : 
+```
 @inproceedings{chen2019more,
   title={More About Covariance Descriptors for Image Set Coding: Log-Euclidean Framework based Kernel Matrix Representation},
   author={Chen, Kai-Xuan and Wu, Xiao-Jun and Ren, Jie-Yi and Wang, Rui and Kittler, Josef},
@@ -21,16 +33,3 @@ BibTex :
 }
 ```
 
-BibTex : 
-```
-@article{Chen2018Component,
-  title={Component SPD matrices: A low-dimensional discriminative data descriptor for image set classification},
-  author={Chen, Kai-Xuan and Wu, Xiao-Jun},
-  journal={Computational Visual Media},
-  volume={4},
-  number={3},
-  pages={245--252},
-  year={2018},
-  publisher={Springer}
-} 
-```
