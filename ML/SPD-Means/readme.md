@@ -1,9 +1,7 @@
 ﻿
 Compute means via four metrics (AIRM, LEM, Stein&Jeffrey divergence) on the Symmetric Positive Definite(SPD) manifold.  
 Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com). If you find any bugs, please contact me. 
-Also, you can find more applications at:  
-https://github.com/Kai-Xuan/RiemannianCovDs/  
-https://github.com/Kai-Xuan/iCovDs/  
+Also, you can find more applications at: https://github.com/Kai-Xuan/RiemannianCovDs/  
 
 
 
@@ -20,15 +18,3 @@ BibTex :
   publisher={Elsevier}
 }
 ```
-
-BibTex : 
-```
-@inproceedings{chen2019more,
-  title={More About Covariance Descriptors for Image Set Coding: Log-Euclidean Framework based Kernel Matrix Representation},
-  author={Chen, Kai-Xuan and Wu, Xiao-Jun and Ren, Jie-Yi and Wang, Rui and Kittler, Josef},
-  booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
-  pages={0--0},
-  year={2019}
-}
-```
-
