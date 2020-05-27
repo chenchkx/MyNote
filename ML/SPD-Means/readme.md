@@ -1,6 +1,6 @@
 ﻿
 Compute means via four metrics (AIRM, LEM, Stein&Jeffrey divergence) on the Symmetric Positive Definite(SPD) manifold.  
-Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com). If you find any bugs, please contact me. 
+Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com). If you find any bugs, please contact me.    
 Also, you can find more applications at: https://github.com/Kai-Xuan/RiemannianCovDs/  
 
 
