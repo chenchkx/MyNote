@@ -1,4 +1,4 @@
-%%  computing the geodesic distance between SPD matrices
+%%  computing the distance between SPD matrices
 %   Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)
 %   If you find any bug, please contact me.
 

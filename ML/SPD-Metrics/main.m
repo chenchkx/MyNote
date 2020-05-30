@@ -1,4 +1,9 @@
-%% The code of four metrics (AIRM, LEM, Stein&Jeffrey divergence) for computing  geodesic distance on the Symmetric Positive Definite(SPD) manifold.  
+%% The code of four metrics for computing distance on the Symmetric Positive Definite(SPD) manifold.  
+% Four metrics: 1.Affine Invariant Riemannian Metric(AIRM),
+%               2.Stein divergence,
+%               3.Jeffrey divergence,
+%               4.Log-Euclidean Metric(LEM).
+% 
 % Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
 % If you find any bugs, please contact me. Also, you can find more applications at:  
 % https://github.com/Kai-Xuan/RiemannianCovDs  
@@ -14,16 +19,21 @@ spd_matrix2 = cov(feature_matrix2');
 % spd_matrix2 = spd_matrix2 + 0.001*trace(spd_matrix2)*eye(size(spd_matrix2));
 
 %% distance while using AIRM
-dis_AIRM = compute_distance(spd_matrix1,spd_matrix2,'A');
+dis_A = compute_distance(spd_matrix1,spd_matrix2,'A');
 
 %% distance while using Stein
-dis_Stein = compute_distance(spd_matrix1,spd_matrix2,'S');
+dis_S = compute_distance(spd_matrix1,spd_matrix2,'S');
 
 %% distance while using Jeffrey
-dis_Jeff = compute_distance(spd_matrix1,spd_matrix2,'J');
+dis_J = compute_distance(spd_matrix1,spd_matrix2,'J');
 
 %% distance while using LogED
-dis_LogED = compute_distance(spd_matrix1,spd_matrix2,'L');
+dis_L = compute_distance(spd_matrix1,spd_matrix2,'L');
+
+
+
+
+
 
 
 %% If you find this code useful for your research, maybe you can cite the following paper:

@@ -1,9 +1,15 @@
 ﻿
-The code of four metrics (AIRM, LEM, Stein&Jeffrey divergence) for computing  geodesic distance on the Symmetric Positive Definite(SPD) manifold.  
+The code of four metrics for computing distance on the Symmetric Positive Definite(SPD) manifold.  
+Four metrics:  1.Affine Invariant Riemannian Metric(AIRM),
+               2.Stein divergence,
+               3.Jeffrey divergence,
+               4.Log-Euclidean Metric(LEM).
+
 Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
 Also, you can find more applications at:  
 https://github.com/Kai-Xuan/RiemannianCovDs/  
 https://github.com/Kai-Xuan/iCovDs/  
+
 
 
 
