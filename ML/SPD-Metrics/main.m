@@ -10,7 +10,8 @@ feature_matrix1 = rand(3,100);
 feature_matrix2 = rand(3,100);
 spd_matrix1 = cov(feature_matrix1');    
 spd_matrix2 = cov(feature_matrix2');
-
+% spd_matrix1 = spd_matrix1 + 0.001*trace(spd_matrix1)*eye(size(spd_matrix1));
+% spd_matrix2 = spd_matrix2 + 0.001*trace(spd_matrix2)*eye(size(spd_matrix2));
 
 %% distance while using AIRM
 dis_AIRM = compute_distance(spd_matrix1,spd_matrix2,'A');

@@ -24,12 +24,12 @@ function out_dis = compute_distance(X,Y,type)
             tmp_dis = 0.5*trace(inv(X)*Y)+0.5*trace(inv(Y)*X) - size(X,1);
             
         case 'L'    % Log-Euclidean Metric [1,5]
-            tmp_dis = norm((logm(X)-logm(Y)),'fro');
+            tmp_dis = norm((logm(X)-logm(Y)),'fro').^2;
     end
     if tmp_dis <= 1e-15
         out_dis = 0;
     else
-        out_dis = tmp_dis;
+        out_dis = sqrt(tmp_dis);
     end
     
 end
