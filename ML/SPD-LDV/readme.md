@@ -1,7 +1,7 @@
 ﻿
 Compute Local Difference Vectors via four metrics on the Symmetric Positive Definite(SPD) manifold.  
-(https://github.com/Kai-Xuan/MyNote/tree/master/ML/SPD-LDV)
-Four metrics: 
+(https://github.com/Kai-Xuan/MyNote/tree/master/ML/SPD-LDV)  
+Four metrics:   
 1.Affine Invariant Riemannian Metric(AIRM),  
 2.Stein divergence,   
 3.Jeffrey divergence,  
