@@ -5,7 +5,7 @@ Also, you can find more applications at: https://github.com/Kai-Xuan/RiemannianC
 
 
 
-If you find this code useful for your research, maybe you can cite the following paper:
+If you find this code useful for your research, we appreciate it very much if you can cite our related works:
 
 BibTex : 
 ```
