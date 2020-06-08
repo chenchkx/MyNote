@@ -1,9 +1,25 @@
 %% Riemannian means on the Symmetric Positive Definite(SPD) manifold. (https://github.com/Kai-Xuan/MyNote/tree/master/ML/SPD-Means)
-%  Points are SPD matrices: spd_matrices(:,:,1), ..., spd_matrices(:,:,N)
-%  Rewritten by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com),If you find any bugs, please contact me.
-%  you also can refer to: https://github.com/mfaraki/Riemannian_VLAD & https://github.com/oryair/ParallelTransportSPDManifold
+% Points are SPD matrices: spd_matrices(:,:,1), ..., spd_matrices(:,:,N)
+% Rewritten by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com),If you find any bugs, please contact me.
+% you also can refer to: https://github.com/mfaraki/Riemannian_VLAD & https://github.com/oryair/ParallelTransportSPDManifold
+% 
+% If you find this code useful for your research, we appreciate it very much if you can cite our related works:
+% @article{chen2020covariance,
+%   title={Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification},
+%   author={Chen, Kai-Xuan and Ren, Jie-Yi and Wu, Xiao-Jun and Kittler, Josef},
+%   journal={Pattern Recognition},
+%   pages={107463},
+%   year={2020},
+%   publisher={Elsevier}
+% }
+% 
+% input
+%     spd_matrices : spd_matrices(:,:,1), ..., spd_matrices(:,:,N) are N SPD matrix
+%     type_metric: Riemannian metric used for SPD manifold('A':AIRM, 'S':Stein, 'J':Jeffrey, 'L':LEM. )
+% output
+%     mean_center: the Riemannian center computed by this function
 
-function [mean_center] = compute_means(spd_matrices,type_metric,max_iter)
+function [mean_center] = compute_riemannian_mean(spd_matrices,type_metric,max_iter)
     
     [dims,~,num_spd] = size(spd_matrices);
     M  = mean(spd_matrices, 3);
