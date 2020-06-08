@@ -1,6 +1,18 @@
 %%  computing the distance between SPD matrices
-%   Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)
-%   If you find any bug, please contact me.
+% Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)
+% If you find any bug, please contact me.
+% If you find this code useful for your research, we appreciate it very much if you can cite our related works:
+% 
+% 1. https://github.com/Kai-Xuan/RiemannianCovDs/ 
+% Kai-Xuan Chen, Jie-Yi-Ren, Xiao-Jun Wu, Josef Kittler. 
+% Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification[J]. 
+% Pattern Recognition, 2020: 107463.
+% 
+% 2. https://github.com/Kai-Xuan/ComponentSPD/  
+% Kai-Xuan Chen, Xiao-Jun Wu. 
+% Component SPD matrices: A low-dimensional discriminative data descriptor for image set classification[J]. 
+% Computational Visual Media, 2018, 4(3): 245-252.
+
 
 
 function out_dis = compute_distance(X,Y,type)

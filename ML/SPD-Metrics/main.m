@@ -4,10 +4,19 @@
 %               3.Jeffrey divergence,
 %               4.Log-Euclidean Metric(LEM).
 % 
-% Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
-% If you find any bugs, please contact me. Also, you can find more applications at:  
-% https://github.com/Kai-Xuan/RiemannianCovDs  
-% https://github.com/Kai-Xuan/iCovDs  
+% Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com). If you find any bugs, please contact me. 
+% 
+% If you find this code useful for your research, we appreciate it very much if you can cite our related works:
+% 
+% 1. https://github.com/Kai-Xuan/RiemannianCovDs/ 
+% Kai-Xuan Chen, Jie-Yi-Ren, Xiao-Jun Wu, Josef Kittler. 
+% Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification[J]. 
+% Pattern Recognition, 2020: 107463.
+% 
+% 2. https://github.com/Kai-Xuan/ComponentSPD/  
+% Kai-Xuan Chen, Xiao-Jun Wu. 
+% Component SPD matrices: A low-dimensional discriminative data descriptor for image set classification[J]. 
+% Computational Visual Media, 2018, 4(3): 245-252.
 
 clear;  
 clc;
@@ -36,7 +45,7 @@ dis_L = compute_distance(spd_matrix1,spd_matrix2,'L');
 
 
 
-%% If you find this code useful for your research, maybe you can cite the following paper:
+%% If you find this code useful for your research, we appreciate it very much if you can cite our related works:
 %{
     @article{chen2020covariance,
       title={Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification},
