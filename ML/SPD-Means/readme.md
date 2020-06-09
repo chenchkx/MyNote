@@ -1,12 +1,17 @@
 ﻿
-Compute means via four metrics (AIRM, LEM, Stein&Jeffrey divergence) on the Symmetric Positive Definite(SPD) manifold.  
-Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com). If you find any bugs, please contact me.    
-Also, you can find more applications at: https://github.com/Kai-Xuan/RiemannianCovDs/  
+Compute Riemannian means via four metrics on the Symmetric Positive Definite(SPD) manifold.  
+Four metrics:  
+              1.Affine Invariant Riemannian Metric(AIRM),  
+              2.Stein divergence,  
+              3.Jeffrey divergence,  
+              4.Log-Euclidean Metric(LEM).  
 
+Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com). If you find any bugs, please contact me.    
 
 
 If you find this code useful for your research, we appreciate it very much if you can cite our related works:
 
+https://github.com/Kai-Xuan/RiemannianCovDs/  
 BibTex : 
 ```
 @article{chen2020covariance,
