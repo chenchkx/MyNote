@@ -1,13 +1,13 @@
 ﻿
 
-An implement, singular value decomposition, in matlab.
-Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)  
+An implementation, singular value decomposition, in matlab.  
+Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)    
 
-If you find this code useful for your research, we appreciate it very much if you can cite our related works:
+If you find this code useful for your research, we appreciate it very much if you can cite our related works:  
 
-https://github.com/Kai-Xuan/AidCovDs/  
-BibTex : 
-```
+https://github.com/Kai-Xuan/AidCovDs/    
+BibTex :   
+```  
 @inproceedings{chen2018riemannian,
   title={Riemannian kernel based Nystr{\"o}m method for approximate infinite-dimensional covariance descriptors with application to image set classification},
   author={Chen, Kai-Xuan and Wu, Xiao-Jun and Wang, Rui and Kittler, Josef},
@@ -16,5 +16,5 @@ BibTex :
   year={2018},
   organization={IEEE}
 }
-```
+```  
 
