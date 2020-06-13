@@ -8,7 +8,9 @@ clear;
 clc;
 data = rand(50,100);
 
-% U: left Singular Vectors, S: Singular Values, V: right Singular Vectors      
+% output:
+%      U: left Singular Vectors 
+%      S: Singular Values 
+%      V: right Singular Vectors   
 [U,S,V] = compute_svd(data);
-
 

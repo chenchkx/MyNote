@@ -6,6 +6,9 @@ Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)
 If you find this code useful for your research, we appreciate it very much if you can cite our related works:  
 
 https://github.com/Kai-Xuan/AidCovDs/    
+
+Chen K X, Wu X J, Wang R, et al. Riemannian kernel based Nyström method for approximate infinite-dimensional covariance descriptors with application to image set classification[C]//2018 24th International conference on pattern recognition (ICPR). IEEE, 2018: 651-656.  
+
 BibTex :   
 ```  
 @inproceedings{chen2018riemannian,
