@@ -6,11 +6,10 @@
 
 clear;
 clc;
-data = rand(50,100);
+data = rand(20,100);
 
-% output:
-%      U: left Singular Vectors 
-%      S: Singular Values 
-%      V: right Singular Vectors   
+% U: left Singular Vectors, S: Singular Values, V: right Singular Vectors      
 [U,S,V] = compute_svd(data);
+
+
 
