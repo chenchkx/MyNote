@@ -1,6 +1,13 @@
 %% An implementation of Singular Value Decomposition Algorithm in matlab
 % Written by Kai-Xuan Chen, (e-mail: kaixuan_chen_jsh@163.com)
 % 
+% input:
+%      X: olumns of vectors of data points. 
+% output:
+%      U: left Singular Vectors 
+%      S: Singular Values 
+%      V: right Singular Vectors   
+% 
 % If you find this code useful for your research, we appreciate it very much if you can cite our related works:
 % 
 % Chen K X, Wu X J, Wang R, et al. Riemannian kernel based Nystr{\"o}m method for approximate infinite-dimensional covariance descriptors 
@@ -15,11 +22,7 @@
 %   year={2018},
 %   organization={IEEE}
 % }
-% 
-% output:
-%      U: left Singular Vectors 
-%      S: Singular Values 
-%      V: right Singular Vectors   
+
 
 
 function [U, S, V] = compute_svd(X)
