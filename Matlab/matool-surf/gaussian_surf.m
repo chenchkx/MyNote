@@ -18,8 +18,8 @@ z = mvnpdf(p,mu,sigma); % 求得网格点上的概率密度
 Z = reshape(z,rows,cols);
 
 figure
-mesh(X,Y,Z)
+surf(X,Y,Z); %画曲面 
+mesh(X,Y,Z); %画网格
 
-
-surfc(X,Y,Z);
-meshc(X,Y,Z);
+surfc(X,Y,Z); %画曲面 ，可以显示等高线
+meshc(X,Y,Z); %画网格 ，可以显示等高线
