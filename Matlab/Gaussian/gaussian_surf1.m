@@ -1,4 +1,6 @@
 % 绘制高斯分布曲面
+% If you find this code useful for your research, we appreciate it very much if you can cite our related works:
+% Chen K X, Ren J Y, Wu X J, et al. Covariance Descriptors on a Gaussian Manifold and their Application to Image Set Classification[J]. Pattern Recognition, 2020: 107463
 
 clear;
 clc;
