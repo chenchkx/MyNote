@@ -18,14 +18,14 @@ z = mvnpdf(p,mu,sigma);     %求得网格点上的概率密度
 Z = reshape(z,rows,cols);
 
 % 3. 使用 surf 函数画出高斯分布的曲面
-figure
-surf(X,Y,Z);                %画曲面 
-mesh(X,Y,Z);                %画网格
 
-surfc(X,Y,Z);               %画曲面 ，可以显示等高线
-meshc(X,Y,Z);               %画网格 ，可以显示等高线
+figure; surf(X,Y,Z);                %画曲面 
+figure; mesh(X,Y,Z);                %画网格
 
-contourf(X,Y,Z)             %只画等高线图
+figure; surfc(X,Y,Z);               %画曲面 ，可以显示等高线
+figure; meshc(X,Y,Z);               %画网格 ，可以显示等高线
+
+figure; contourf(X,Y,Z)             %只画等高线图
 
 
 
